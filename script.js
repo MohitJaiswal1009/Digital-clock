@@ -14,6 +14,6 @@ const showTime =()=>{
     mins=mins<10? `0${mins}` :mins;
     secs=secs<10? `0${secs}` :secs;
     time.innerHTML= `${hr} : ${mins} : ${secs}`;
-    timeformat.innerHTML=hr>12? "PM":"AM";
+    timeformat.innerHTML=hr>12? "AM":"PM";
    // console.log("hours" + hr + "mins" + "secs" +secs);
 }
